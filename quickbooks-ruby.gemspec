@@ -2,12 +2,12 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require "quickbooks/version"
 
 Gem::Specification.new do |gem|
-  gem.name     = "quickbooks-ruby"
+  gem.name     = "quickbooks-ruby-oauth2"
   gem.version  = Quickbooks::VERSION
 
-  gem.author   = "Cody Caughlan"
-  gem.email    = "toolbag@gmail.com"
-  gem.homepage = "http://github.com/ruckus/quickbooks-ruby"
+  gem.author   = "Kamil Sobieraj"
+  gem.email    = "ksobej@gmail.com"
+  gem.homepage = "http://github.com/ksob/quickbooks-ruby"
   gem.summary  = "REST API to Quickbooks Online"
   gem.license  = 'MIT'
   gem.description = "QBO V3 REST API to Quickbooks Online"
